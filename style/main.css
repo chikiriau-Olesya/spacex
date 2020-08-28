@@ -1,3 +1,5 @@
+/*Здесь мы подключили сброс дефолтных стилей
+ браузера и добавили понравившийся  шритф*/
 @import 'reset.css';
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300;400;500&display=swap');
 
@@ -14,6 +16,9 @@ body {
     font-family: 'Fira Sans Extra Condensed', Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
+
+
+/*Прописываем стили для шапки сайта*/
 
 header {
     padding: 40px 70px;
@@ -77,12 +82,13 @@ header a:hover {
     background-color: white;
 }
 
+
+/*Прописываем стили для секций с контентом*/
+
 section {
     position: relative;
     width: 100%;
 }
-
-section
 
 .background {
     width: 100%;
@@ -194,6 +200,9 @@ section:nth-of-type(2) .textblock,
 section:nth-of-type(6) .textblock {
     left: 60%;
 }
+
+
+/*Прописываем стили для нашего подвала*/
 
 footer {
     background-color: black;

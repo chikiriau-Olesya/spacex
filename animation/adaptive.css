@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+    header nav {
+        display: none;
+    }
+
+    .menu {
+        margin-right: 50px;
+    }
+
+    .textblock {
+        width: 60%;
+    }
+
+    .section__wrapper-video .textblock {
+       top: 45%;
+    }
+
+    .video {
+        position: absolute;
+        left: 50px;
+        top: 5%;
+    }
+
+    iframe {
+        width: 88vw;
+        height: 38vw;
+    }
+
+    section:nth-of-type(2) .textblock, section:nth-of-type(6) .textblock {
+        left: 50%;
+        right: 50px;
+        width: 40%;
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        padding: 20px 20px;
+        align-items: baseline;
+    }
+
+    .menu {
+        margin-right: 0px;
+    }
+
+    .textblock {
+        left: 30px;
+        width: 80%;
+    }
+
+}
